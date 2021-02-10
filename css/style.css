@@ -5,6 +5,34 @@ body{font-family: 'Open Sans Condensed', sans-serif}
     margin-bottom: 10px;
     
 }
+.option-box{
+    position: fixed;
+    top: 100px;
+    nav-left: 0;
+    z-index: 1000;
+}
+.option-box .color-option{
+    float: left;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #f00;
+    padding: 10px;
+    display: none;
+}
+.option-box .color-option ul li{
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    margin-right: 5px;
+    display: inline-block;
+}
+.option-box .setting{
+    padding: 5px;
+    background: #f00;
+    color: #fff;
+    cursor: pointer;
+}
 .navbar{
     min-height: 70px;
 }
